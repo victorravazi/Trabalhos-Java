@@ -26,5 +26,8 @@ public class TesteCarros {
 	public static void main(String[] args) {
 		Veiculo carro1 = new Veiculo("Honda", "Civic");
 		carro1.acelerar();
+
+		Carro car1 = new Carro("Argo", "2024");
+		car1.acelerar();
 	}
 }
