@@ -14,8 +14,9 @@ public class Caixa<T> {
 		caixaDeTexto.guardar("Olaa, Texto");
 		String texto = caixaDeTexto.pegar();
 		System.out.println(texto);
+
 		Caixa<Integer> caixaDeNumeros = new Caixa<>();
-		Integer numero = new Integer(4);
+		Integer numero = Integer.valueOf(3);
 		caixaDeNumeros.guardar(numero);
 
 		Integer valorResgatado = caixaDeNumeros.pegar();
